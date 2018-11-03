@@ -12,5 +12,8 @@
       secondButton.innerText = 'you clicked me';
     })
 
-    
+    thirdButton.addEventListener('click', function () {
+      secondButton.innerText = 'button two'
+    })
+
 })();
